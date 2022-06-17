@@ -319,7 +319,7 @@ body {
     margin-right: 0;
 }
 
-.box .content li:nth-child(n) img {
+.box .content li:nth-child(n) a img {
     width: 228px;
 }
 
@@ -515,6 +515,21 @@ body {
 .footer .footer-nav li a:hover {
     transition: all 0.3s;
     color: #00a4ff;
+}
+
+
+
+/* hot定位 */
+
+
+.box .content li {
+    position: relative;
+}
+
+.box .content li .hot{
+    position: absolute;
+    top: 4px;
+    right: -4px;
 }
 
 
